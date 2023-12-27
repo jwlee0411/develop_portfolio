@@ -17,9 +17,9 @@ function Header(props) {
         <Navbar.Collapse className="collapse navbar-collapse" id="navbarSupportedContent">
             <Nav className="ms-auto mb-2 mb-lg-0 small fw-bolder">
                 <Nav.Link href="/">소개</Nav.Link>
-                <Nav.Link href="/skills">기술</Nav.Link>
-                <Nav.Link href="/experience">걸어온 길</Nav.Link>
-                <Nav.Link href="/projects">산출물</Nav.Link>
+                <Nav.Link href="/#/skills">기술</Nav.Link>
+                <Nav.Link href="/#/experience">걸어온 길</Nav.Link>
+                <Nav.Link href="/#/projects">산출물</Nav.Link>
                 
             </Nav>
         </Navbar.Collapse>
