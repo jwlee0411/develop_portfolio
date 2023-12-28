@@ -47,7 +47,7 @@ const Projects = () => {
             <span className="text-gradient d-inline">Mapable</span>
           </h1>
 
-            <div>2020.10 - 2021.01 (팀 프로젝트, 어플리케이션 2 + AI 1)</div>
+            <div>2021.04 - 2021.07 (개인 프로젝트)</div>
         </div>
 
         <div className="d-flex align-items-center justify-content-between mb-4">
@@ -141,6 +141,8 @@ const Projects = () => {
            <b>교통약자의 편리한 이동을 돕는 대중교통 길찾기 어플리케이션</b>입니다.<br/>
                     휠체어 사용, 거동 불편 유무에 따라 최적화된 길찾기 경로를 제공해 교통약자가 실제로 이용할 수 있는 경로를 보여주고 안내하는 기능을 구현했습니다.<br/>
                     또한 시각장애가 있는 분을 위한 음성인식 설정, 길찾기 기능도 구현했습니다.<br/>
+               <br/>
+               <b>2021 모바일 콘텐츠 개발대회(생활, 비디자인 부문)에서 은상을 수상했습니다. </b>
           </div>
           
           

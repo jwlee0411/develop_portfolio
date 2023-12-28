@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 import { Button, Container, Row, Col, Badge } from 'react-bootstrap';
 
-const Experience = (props) => {
+const History = (props) => {
 	return (
 		<>
   <section py={5}>
@@ -36,7 +36,7 @@ const Experience = (props) => {
                
                     
                   <div className="text-primary fw-bolder mb-2"><div className="d-flex align-items-center justify-content-between mb-4">
-          <h4 className="text-secondary fw-bolder mb-0">2024</h4>
+          <h4 className="text-secondary fw-bolder mb-0"><b>2024</b></h4>
         </div>
                 
                 </div>
@@ -136,29 +136,7 @@ const Experience = (props) => {
                   
                   
             </Row>
-              
-                  {/* Item */}
-            <Row className="align-items-center gx-5">
-              <Col lg={4}>
-               
-                 <div className="text-primary fw-bolder text-start p-1"> 
-                
-                </div>
-                  
-                  
-              </Col>
-              <Col lg={8}>
-                <div className="text-start p-1"> 
-                 개인 포트폴리오 사이트 [종우의 개발 꾸러미] 서비스 시작
-                </div>
-              </Col>
-                  
-                  
-                  
-                  
-                  
-            </Row>
-              
+            
                        {/* Item */}
             <Row className="align-items-center gx-5">
               <Col lg={4}>
@@ -212,7 +190,7 @@ const Experience = (props) => {
                
                     
                   <div className="text-primary fw-bolder mb-2"><div className="d-flex align-items-center justify-content-between mb-4">
-          <h4 className="text-secondary fw-bolder mb-0">2023</h4>
+          <h4 className="text-secondary fw-bolder mb-0"><b>2023</b></h4>
         </div>
                 
                 </div>
@@ -224,6 +202,28 @@ const Experience = (props) => {
               </Col>
             </Row>
               
+                
+                  {/* Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+                2023.12
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                 개인 포트폴리오 사이트 [종우의 개발 꾸러미] 서비스 시작
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row>
               
               
                             {/* Item */}
@@ -231,7 +231,7 @@ const Experience = (props) => {
               <Col lg={4}>
                
                  <div className="text-primary fw-bolder text-start p-1"> 
-                 2023.12
+                 
                 </div>
                   
                   
@@ -439,7 +439,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                  - DAS(AI Specialist)반 과목조교 임명
+                  - DAS(AI Specialist)반 과목조교
                 </div>
               </Col>
                   
@@ -602,7 +602,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                  - DSS(Data Science)반 과목조교 임명
+                  - DSS(Data Science)반 과목조교
                 </div>
               </Col>
                   
@@ -643,7 +643,7 @@ const Experience = (props) => {
                
                     
                   <div className="text-primary fw-bolder mb-2"><div className="d-flex align-items-center justify-content-between mb-4">
-          <h4 className="text-secondary fw-bolder mb-0">2022</h4>
+          <h4 className="text-secondary fw-bolder mb-0"><b>2022</b></h4>
         </div>
                 
                 </div>
@@ -655,6 +655,50 @@ const Experience = (props) => {
               </Col>
             </Row>
               
+               {/* Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+                 2022.12
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                 숭실대학교 제40대 동아리연합회 LET'S 집행부(~2023.11)
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row>
+              
+              
+                                                {/* Empty Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+                
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row>
               
               
                           {/* Item */}
@@ -714,7 +758,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 숭실대학교 제39대 동아리연합회 은하SSU 집행부 가입
+                 숭실대학교 제39대 동아리연합회 은하SSU 집행부(~2022.12)
                 </div>
               </Col>
                   
@@ -919,7 +963,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 2021 모바일 콘텐츠 개발대회 은상 (생활, 비디자인)
+                 선린인터넷고등학교 2021 모바일 콘텐츠 개발대회 은상 (생활, 비디자인)
                 </div>
               </Col>
                   
@@ -989,7 +1033,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 2020 디지털 콘텐츠 개발대회 은상 (앱, 비디자인)
+                 선린인터넷고등학교 2020 디지털 콘텐츠 개발대회 은상 (앱, 비디자인)
                 </div>
               </Col>
                   
@@ -1070,6 +1114,53 @@ const Experience = (props) => {
               <Col lg={4}>
                
                  <div className="text-primary fw-bolder text-start p-1"> 
+                 2020.11
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                 Android Studio(Java) 학습용 교재 [처음부터 만나는 Android Studio] 기획 / 배포
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row> 
+             
+              
+                           {/* Empty Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+                
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row>
+              
+              
+              
+              {/* Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
                  2020.09
                 </div>
                   
@@ -1131,7 +1222,9 @@ const Experience = (props) => {
             </Row>
               
               
-                {/* Item */}
+
+              
+                 {/* Item */}
             <Row className="align-items-center gx-5">
               <Col lg={4}>
                
@@ -1143,7 +1236,104 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 2020 모바일 콘텐츠 개발대회 은상 (생활, 비디자인)
+                 Python 학습용 교재 [처음부터 만나는 Python] 기획 / 배포
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row> 
+             
+              
+                 
+              
+              
+              
+                {/* Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+               
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                 선린인터넷고등학교 2020 해커톤 참여 (생활)
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row> 
+              
+              
+                    {/* Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+                 
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                 - Prord
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row> 
+              
+              
+              
+              
+              
+                {/* Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+                 
+                </div>
+                  
+                                             {/* Empty Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start"> 
+                
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start"> 
+                
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row>
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                 선린인터넷고등학교 2020 모바일 콘텐츠 개발대회 은상 (생활, 비디자인)
                 </div>
               </Col>
                   
@@ -1207,7 +1397,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 VoIT 청소년동아리 활동 지원사업 선정(~2020.12)
+                 VoIT 청소년동아리 활동 지원사업 선정(도봉청소년누리터 WiTH, ~2020.12)
                 </div>
               </Col>
                   
@@ -1230,7 +1420,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 안드로이드 앱 프로그래밍 동아리 SIRI_Android 회장 임명
+                 선린인터넷고등학교 안드로이드 앱 프로그래밍 동아리 SIRI_Android 회장(~2020.12)
                 </div>
               </Col>
                   
@@ -1291,6 +1481,29 @@ const Experience = (props) => {
               </Col>
             </Row>
               
+              
+              {/* Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+                 2019.12
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                 2019 청소년프로그램공모사업 활동수기 공모전 청소년 부문 최우수상 (출동SOS, 여성가족부 장관상)
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row> 
+              
                     {/* Item */}
             <Row className="align-items-center gx-5">
               <Col lg={4}>
@@ -1303,7 +1516,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 2019 IoT아이디어공모전 은상
+                 선린인터넷고등학교 2019 IoT아이디어공모전 은상
                 </div>
               </Col>
                   
@@ -1369,7 +1582,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 교육봉사동아리 VoIT 개설 / 회장 임명
+                 선린인터넷고등학교 교육봉사동아리 VoIT 개설 / 회장(~2020.12)
                 </div>
               </Col>
                   
@@ -1378,6 +1591,75 @@ const Experience = (props) => {
                   
                   
             </Row> 
+              
+                {/* Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+                 2019.05
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                 도봉청소년누리터 WiTH 봉사활동 참여(~2019.10)
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row> 
+              
+              
+                {/* Item: 청소년들에 의한 지역사회 문제해결을 위한 IoT 기술 활용 사회안전망 구축 프로그램 */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start p-1"> 
+           
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start p-1"> 
+                 - 출동SOS 
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row>
+              
+              
+                                             {/* Empty Item */}
+            <Row className="align-items-center gx-5">
+              <Col lg={4}>
+               
+                 <div className="text-primary fw-bolder text-start"> 
+                
+                </div>
+                  
+                  
+              </Col>
+              <Col lg={8}>
+                <div className="text-start"> 
+                
+                </div>
+              </Col>
+                  
+                  
+                  
+                  
+                  
+            </Row>
+              
               
               
                   {/* Item */}
@@ -1392,7 +1674,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 동아리 IT리뷰반 부회장 임명
+                 선린인터넷고등학교 동아리 IT리뷰반 부회장(~2019.12)
                 </div>
               </Col>
                   
@@ -1712,7 +1994,7 @@ const Experience = (props) => {
               </Col>
               <Col lg={8}>
                 <div className="text-start p-1"> 
-                 서울 도봉구 출생
+                 서울 성북구 출생
                 </div>
               </Col>
                   
@@ -1741,4 +2023,4 @@ const Experience = (props) => {
 	);
 };
 
-export default Experience;
+export default History;

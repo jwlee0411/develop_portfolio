@@ -18,9 +18,10 @@ function Header(props) {
             <Nav className="ms-auto mb-2 mb-lg-0 small fw-bolder">
                 <Nav.Link href="/">소개</Nav.Link>
                 <Nav.Link href="/#/skills">기술</Nav.Link>
-                <Nav.Link href="/#/experience">걸어온 길</Nav.Link>
+                <Nav.Link href="/#/history">걸어온 길</Nav.Link>
                 <Nav.Link href="/#/projects">산출물</Nav.Link>
-                
+               {/* <Nav.Link href="/#/experience">활동</Nav.Link>
+                 <Nav.Link href="/#/extra">한 걸음 더</Nav.Link> */}
             </Nav>
         </Navbar.Collapse>
     </Container>

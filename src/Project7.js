@@ -124,7 +124,7 @@ const Projects = () => {
            <div className = "text-start">
          기존 사용하던 동아리연합회 <b>네이버 카페를 대체하기 위해 개발한 숭실대학교 동아리연합회 웹사이트</b>입니다.<br/>
 
-            2023년 8월 서비스를 시작했고, 2023년 기준 약 X,000명의 중앙동아리 회원이 사이트를 이용하고 있습니다.
+            2023년 8월 서비스를 시작했고, 2023년 기준 7개 분과 / 70개 동아리에 소속된 3,700명의 중앙동아리 회원이 사이트를 이용하고 있습니다.
           </div>
           
           
@@ -159,7 +159,7 @@ const Projects = () => {
                  
            <div className="row row-cols-1 row-cols-md-4 mb-4">
               <div className="col mb-3 mb-md-0">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Nginx</div>
+                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">nginx</div>
               </div>
               <div className="col mb-3 mb-md-0">
                 <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">NAVER Cloud</div>

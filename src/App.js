@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 import Home from './Home';
-import Experience from './Experience';
+import History from './History';
 import Skills from './Skills';
 import Projects from './Projects';
 import Project1 from './Project1';
@@ -16,6 +16,7 @@ import Project6 from './Project6';
 import Project7 from './Project7';
 import Project8 from './Project8';
 import Project9 from './Project9';
+import Extra from './Extra';
 import NotFound from './NotFound';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -32,7 +33,7 @@ const App = () => {
 				<Routes>
 					<Route path="/" element ={<Home />}></Route>
                     <Route path="/home" element ={<Home />}></Route>
-                    <Route path="/experience" element ={<Experience />}></Route>
+                    <Route path="/history" element ={<History />}></Route>
                     <Route path="/skills" element ={<Skills />}></Route>
                     <Route path="/projects" element ={<Projects />}></Route>
                     <Route path="/projects/1" element ={<Project1 />}></Route>
@@ -44,6 +45,7 @@ const App = () => {
                     <Route path="/projects/7" element={<Project7 />}></Route>
                     <Route path="/projects/8" element={<Project8 />}></Route>
                     <Route path="/projects/9" element={<Project9 />}></Route>
+                    <Route path="/extra" element={<Extra />}></Route>
 					{/* 상단에 위치하는 라우트들의 규칙을 모두 확인, 일치하는 라우트가 없는경우 처리 */}
 					<Route path="*" element={<NotFound />}></Route>
 				</Routes>

@@ -92,7 +92,7 @@ const Skills = (props) => {
             </div>
             <div className="row row-cols-1 row-cols-md-3 mb-4">
               <div className="col mb-4 mb-md-0">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Android</div>
+                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Android Studio</div>
               </div>
               <div className="col mb-4 mb-md-0">
                 <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Java</div>

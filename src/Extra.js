@@ -3,9 +3,13 @@ import {Link} from 'react-router-dom';
 
 
 
-import { Button, Container, Row, Col, Badge } from 'react-bootstrap';
+import { Button, Container, Row, Col, Badge, Card } from 'react-bootstrap';
 
-import project_1 from './image/project_4.png' // Signal
+import p1_1 from './image/extra/1_1.jpg' // 도봉2
+
+import p1_2 from './image/extra/1_2.jpg' // groc
+
+import project_1 from './image/project_8.png' // 띠앗
 import project_2 from './image/project_8.png' // 띠앗
 import project_3 from './image/project_5.png' //K코로나
 import project_4 from './image/project_2.png' // Code:Green
@@ -16,132 +20,148 @@ import project_8 from './image/project_3.png' // 포폴
 import project_9 from './image/project_3.png' // 교양공동체
 
 
+
+
 const Projects = (props) => {
+    const cards = [
+    { title: 'Card 1', content: 'Content for Card 1' },
+    { title: 'Card 2', content: 'Content for Card 2' },
+    { title: 'Card 3', content: 'Content for Card 3' },
+    // Add more cards as needed
+  ];
+    
+    
 	return (
 
 
   <section className="py-5">
-  <div className="container px-2 mb-2">
+  <div className="container px-5 mb-5">
     <div className="text-center mb-5">
       <h1 className="display-5 fw-bolder mb-0">
-        <span className="text-gradient d-inline">산출물</span>
+        <span className="text-gradient d-inline">한 걸음 더</span>
       </h1>
     </div>
 
-    <div className="row gx-5 justify-content-center">
+    <div className="row justify-content-center">
            <div className="d-flex align-items-center justify-content-between mb-4">
-            <h2 className="text-primary fw-bolder mb-0">2024</h2>
+            <h2 className="text-primary fw-bolder mb-0">언론보도</h2>
                            
                                
                             </div>
-      <div className="col-10">
+        <Row>
+      {cards.map((card, index) => (
+        <Col key={index} md={4}>
+          <Card>
+            <Card.Body>
+              <Card.Title>{card.title}</Card.Title>
+              <Card.Text>{card.content}</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      ))}
+    </Row>
+
+        
+      <div className="col">
           
           
-          
-           {/* 숭실교양 - 나중에 활성화 */}
-    
-         
-          {/*<div className="card overflow-hidden shadow rounded-4 border-0 mb-5 text-start">
+        
+                {/* groc */}
+<div className="card overflow-hidden shadow rounded-4 border-0 mb-5 text-start">
   <div className="card-body p-0">
     <div className="row align-items-center" id="align_left">
       <div className="col-md-4">
-        <img className="img-fluid" src={project_7} alt="..." />
+        <img className="img-fluid" src={p1_2} alt="..." />
       </div>
       <div className="col-md-8 p-5">
-       <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># Web</div>
-                
-                    </Badge>&nbsp;&nbsp;&nbsp;
-                  <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># Python</div>
-                
-                    </Badge>&nbsp;&nbsp;&nbsp;
-                  <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># ML</div>
-                
-                    </Badge>&nbsp;&nbsp;&nbsp;
-                  <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># Streamlit</div>
-                
-                    </Badge>
+        
         <p />
-            
-                <h2 className="fw-bolder">(개발중) 서울 주요대학 교양교육 분석</h2>
-                  2023.06 - 2024.02 (팀 프로젝트, 4명)<br/><br/>
-                <p >
-                    숭실교양공동체 2기 데이터사이언스팀에서 개발한 <b>서울 주요대학 교양교육 분석 데이터를 시각화한 웹사이트</b>입니다.
+          중앙일보
+        <h2 className="fw-bolder">(주)모노리스, ‘GROC 2023 챔피언십 파이널’ 성료</h2>
+                  2023.12.05<br/><br/>
+                 <p >
+                     그래비티 레이싱 대회 'GROC(Gravity Race Of Champions) 2023 Championship Final'에 선수로 참여했습니다. <br/>
+                    
                   
                 </p>
                   
                   <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                       
-              <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/develop_portfolio" target="_blank" rel="noopener noreferrer">
-                Github
+          
+            
+                <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://www.joongang.co.kr/article/25212544" target="_blank" rel="noopener noreferrer">
+                기사보기
               </Button>
-                      
-              <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html" target="_blank" rel="noopener noreferrer" disabled>
-                사이트 접속
-              </Button>
-                <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./projects/9" disabled>
-                자세히 보기
-              </Button>
-             
         </div>
       </div>
     </div>
   </div>
-</div> */}
-
+</div>
           
-  
-          
-          
-          
-                       {/* 동연 */}
+                        {/* 출동sos */}
 <div className="card overflow-hidden shadow rounded-4 border-0 mb-5 text-start">
   <div className="card-body p-0">
     <div className="row align-items-center" id="align_left">
       <div className="col-md-4">
-        <img className="img-fluid" src={project_7} alt="..." />
+        <img className="img-fluid" src={p1_1} alt="..." />
       </div>
       <div className="col-md-8 p-5">
-        <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># Web</div>
-                
-                    </Badge>&nbsp;&nbsp;&nbsp;
-                  <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># Django</div>
-                
-                    </Badge>&nbsp;&nbsp;&nbsp;
-                  <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># nginx</div>
-                
-                    </Badge>&nbsp;&nbsp;&nbsp;
-                  <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># Python</div>
-                
-                    </Badge>
+        
         <p />
-        <h2 className="fw-bolder">숭실대학교 동아리연합회</h2>
-                  2022.10 - 2024.01 (팀⇾개인 프로젝트)<br/><br/>
+          MBN
+        <h2 className="fw-bolder">경복궁에서 청와대까지 '자율주행버스 첫 운행'…무료 탑승</h2>
+                  2022.12.22<br/><br/>
                  <p >
-                    <b>기존 사용하던 네이버 카페를 대체하기 위한 숭실대학교 동아리연합회 웹사이트</b>를 제작했습니다. <br/>
-                    실시간 연습실 신청 및 이용내역 관리, 장소사용신청서 작성 및 출력, 회원 관리, 게시물 관리 등의 기능을 구현했습니다.<br/>
-                  <br/>
-                     * Github 및 웹사이트 링크는 2023년 8월 개발 완료한 V1 기준입니다
+                    개통 첫 날 자율주행버스를 이용하고 이용 소감을 인터뷰했습니다. <br/>
+                    
+                  
                 </p>
                   
-                  <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                       
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/ssudy_web_pub_v2308" target="_blank" rel="noopener noreferrer">
-                Github
+          
+              <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://www.youtube.com/watch?v=a7umnByEXiw" target="_blank" rel="noopener noreferrer">
+                YouTube
               </Button>
+                <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="mbn.co.kr/news/society/4889499" target="_blank" rel="noopener noreferrer">
+                기사보기
+              </Button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          
+          
+          
+                       {/* 출동sos */}
+<div className="card overflow-hidden shadow rounded-4 border-0 mb-5 text-start">
+  <div className="card-body p-0">
+    <div className="row align-items-center" id="align_left">
+      <div className="col-md-4">
+        <img className="img-fluid" src={p1_1} alt="..." />
+      </div>
+      <div className="col-md-8 p-5">
+        
+        <p />
+          시정일보
+        <h2 className="fw-bolder">도봉구, 청소년 활동 수기 부문 '출동SOS' 여가부 장관상 수상</h2>
+                  2019.12.24<br/><br/>
+                 <p >
+                    <b>2019 청소년프로그램공모사업 활동수기 공모전 청소년 부문에서 최우수상 (여성가족부 장관상)</b>을 수상했습니다. <br/>
+                    
+                  
+                </p>
+                  
+                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                       
-              <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="http://ssudy.com" target="_blank" rel="noopener noreferrer">
-                사이트로
+          
+              <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://www.kywa.or.kr/pressinfo/data_view.jsp?bgubun=&currPage=1&searchText=&searchColumn=&searchTextEn=&bgubun=&cate=C8ABBAB8&no=27507" target="_blank" rel="noopener noreferrer">
+                관련 자료
               </Button>
-                <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/7">
-                자세히
+                <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="http://www.sijung.co.kr/news/articleView.html?idxno=240990" target="_blank" rel="noopener noreferrer">
+                기사보기
               </Button>
         </div>
       </div>
@@ -202,21 +222,20 @@ const Projects = (props) => {
                   
                 </p>
                   
-            <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                       
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/develop_portfolio" target="_blank" rel="noopener noreferrer">
+                      <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/develop_portfolio" target="_blank" rel="noopener noreferrer">
                 Github
               </Button>
                       
               <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://jwlee0411.github.io/" target="_blank" rel="noopener noreferrer">
-                사이트로
+                사이트 접속
               </Button>
                 <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/8">
-                자세히
+                자세히 보기
               </Button>
+             
         </div>
-          
-                
       </div>
     </div>
   </div>
@@ -273,18 +292,19 @@ const Projects = (props) => {
                     
                 </p>
                   
-            <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                      
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/2023_neoul_pub" target="_blank" rel="noopener noreferrer">
+                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                      <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/2023_neoul_pub" target="_blank" rel="noopener noreferrer">
                 Github
               </Button>
-      
+                      
+                      {/*<Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html" target="_blank" rel="noopener noreferrer">
+                사이트 접속
+              </Button> */}
+                      
                 <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/6">
-                자세히
+                자세히 보기
               </Button>
         </div>
-          
-          
       </div>
     </div>
   </div>
@@ -349,21 +369,15 @@ const Projects = (props) => {
                     휠체어 사용, 거동 불편 유무에 따라 최적화된 길찾기 경로를 제공해 교통약자가 실제로 이용할 수 있는 경로를 보여주고 안내하는 기능을 구현했습니다.<br/>
                     또한 시각장애가 있는 분을 위한 음성인식 설정, 길찾기 기능도 구현했습니다.<br/>
                 </p>
-
-          
-          
-           <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                      
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/Mapable" target="_blank" rel="noopener noreferrer">
+                  
+                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+              <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/Mapable" target="_blank" rel="noopener noreferrer">
                 Github
               </Button>
-           
                 <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/5">
-                자세히
+                자세히 보기
               </Button>
         </div>
-          
-              
       </div>
     </div>
   </div>
@@ -408,15 +422,12 @@ const Projects = (props) => {
                   
                 </p>
                   
-                   <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                      
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/CodeGreen" target="_blank" rel="noopener noreferrer">
+                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+              <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder"  href="https://github.com/jwlee0411/CodeGreen" target="_blank" rel="noopener noreferrer">
                 Github
               </Button>
-                      
-              
                 <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/4">
-                자세히
+                자세히 보기
               </Button>
         </div>
       </div>
@@ -477,15 +488,12 @@ const Projects = (props) => {
                   
                 </p>
                   
-                     <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                      
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/K-Corona.com" target="_blank" rel="noopener noreferrer">
+                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+              <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/K-Corona.com" target="_blank" rel="noopener noreferrer">
                 Github
               </Button>
-                      
-              
                 <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/3">
-                자세히
+                자세히 보기
               </Button>
         </div>
       </div>
@@ -521,21 +529,18 @@ const Projects = (props) => {
              <b>순우리말을 친숙하게 사용하고 생활화할 수 있도록 해 주는 우리말 사전 어플리케이션</b>입니다.<br/>
             우리말 사전, 우리말로 바꾸기(번역), 우리말 단어 맞추기 기능을 구현했습니다.
         </p>
-              <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                      
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/Tiatt" target="_blank" rel="noopener noreferrer">
+        <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+           <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/Tiatt" target="_blank" rel="noopener noreferrer">
                 Github
               </Button>
-                      
-                <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://play.google.com/store/apps/details?id=tiatt.jw" target="_blank" rel="noopener noreferrer">
-                다운로드
-              </Button>
-                <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/2">
-                자세히
-              </Button>
+            
+            <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://play.google.com/store/apps/details?id=tiatt.jw" target="_blank" rel="noopener noreferrer">
+            다운로드
+          </Button>
+          <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/2">
+            자세히 보기
+          </Button>
         </div>
-          
-      
       </div>
     </div>
   </div>
@@ -593,19 +598,15 @@ const Projects = (props) => {
                     전구는 아두이노를 이용해 제작했고, Firebase 이용한 서버리스 시스템 구축해 언제 어디서나 전구에 접근 가능하도록 구현했습니다.<br/>
                     
                 </p>
-          
-          <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                      
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/Signal" target="_blank" rel="noopener noreferrer">
+                  
+                  <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+              <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/Signal" target="_blank" rel="noopener noreferrer">
                 Github
               </Button>
-                
                 <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/1">
-                자세히
+                자세히 보기
               </Button>
         </div>
-                  
-               
       </div>
     </div>
   </div>
