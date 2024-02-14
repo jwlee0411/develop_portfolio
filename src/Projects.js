@@ -114,7 +114,7 @@ const Projects = (props) => {
                 
                     </Badge>&nbsp;&nbsp;&nbsp;
                   <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># nginx</div>
+                  <div># Nginx</div>
                 
                     </Badge>&nbsp;&nbsp;&nbsp;
                   <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
@@ -127,17 +127,15 @@ const Projects = (props) => {
                  <p >
                     <b>기존 사용하던 네이버 카페를 대체하기 위한 숭실대학교 동아리연합회 웹사이트</b>를 제작했습니다. <br/>
                     실시간 연습실 신청 및 이용내역 관리, 장소사용신청서 작성 및 출력, 회원 관리, 게시물 관리 등의 기능을 구현했습니다.<br/>
-                  <br/>
-                     * Github 및 웹사이트 링크는 2023년 8월 개발 완료한 V1 기준입니다
                 </p>
                   
                   <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                       
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/ssudy_web_pub_v2308" target="_blank" rel="noopener noreferrer">
+               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/ssudy_web" target="_blank" rel="noopener noreferrer">
                 Github
               </Button>
                       
-              <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="http://ssudy.com" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="http://www.ssudy.com" target="_blank" rel="noopener noreferrer">
                 사이트로
               </Button>
                 <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/7">
@@ -149,13 +147,70 @@ const Projects = (props) => {
   </div>
 </div>
 
-          
-          
-      
-          
-          
-          
-          
+
+
+          {/* 개발꾸러미 */}
+          <div className="card overflow-hidden shadow rounded-4 border-0 mb-5 text-start">
+              <div className="card-body p-0">
+                  <div className="row align-items-center" id="align_left">
+                      <div className="col-md-4">
+                          <img className="img-fluid" src={project_8} alt="..." />
+                      </div>
+                      <div className="col-md-8 p-5">
+                          <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
+                              <div># Web</div>
+
+                          </Badge>&nbsp;&nbsp;&nbsp;
+                          <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
+                              <div># React</div>
+
+                          </Badge>&nbsp;&nbsp;&nbsp;
+                          <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
+                              <div># Springboot</div>
+
+                          </Badge>&nbsp;&nbsp;&nbsp;
+                          <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
+                              <div># MySQL</div>
+
+                          </Badge>
+                          &nbsp;&nbsp;&nbsp;
+                          <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
+                              <div># Apache</div>
+
+                          </Badge>
+                          <p />
+                          <h2 className="fw-bolder">종우의 개발 꾸러미</h2>
+                          2023.12 - 2024.02 (개인 프로젝트)<br/><br/>
+                          <p >
+                              <b>포트폴리오 용도로 제작한 개인 웹사이트</b>입니다.
+
+                          </p>
+
+                          <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+
+                              <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/develop_portfolio_v2" target="_blank" rel="noopener noreferrer">
+                                  Github
+                              </Button>
+
+                              <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://jwlee0411.github.io/" target="_blank" rel="noopener noreferrer">
+                                  사이트로
+                              </Button>
+                              <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/8">
+                                  자세히
+                              </Button>
+                          </div>
+
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
       </div>
     </div>
       
@@ -169,58 +224,6 @@ const Projects = (props) => {
                                
                             </div>
       <div className="col-10">
-          
-                {/* 개발꾸러미 */}
-<div className="card overflow-hidden shadow rounded-4 border-0 mb-5 text-start">
-  <div className="card-body p-0">
-    <div className="row align-items-center" id="align_left">
-      <div className="col-md-4">
-        <img className="img-fluid" src={project_8} alt="..." />
-      </div>
-      <div className="col-md-8 p-5">
-       <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># Web</div>
-                
-                    </Badge>&nbsp;&nbsp;&nbsp;
-                  <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># React</div>
-                
-                    </Badge>&nbsp;&nbsp;&nbsp;
-                  <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># Javascript</div>
-                
-                    </Badge>&nbsp;&nbsp;&nbsp;
-                  <Badge bg="gradient-primary-to-secondary" mb={4} className="text-white">
-                  <div># Bootstrap</div>
-                
-                    </Badge>
-        <p />
-        <h2 className="fw-bolder">종우의 개발 꾸러미</h2>
-                  2023.12 (개인 프로젝트)<br/><br/>
-                <p >
-                    <b>포트폴리오 용도로 제작한 개인 웹사이트</b>입니다.
-                  
-                </p>
-                  
-            <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                      
-               <Button variant="outline-dark" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://github.com/jwlee0411/develop_portfolio" target="_blank" rel="noopener noreferrer">
-                Github
-              </Button>
-                      
-              <Button variant="outline-primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://jwlee0411.github.io/" target="_blank" rel="noopener noreferrer">
-                사이트로
-              </Button>
-                <Button variant="primary" className="btn px-3 py-3 me-sm-3 fs-6 fw-bolder" href="./#/projects/8">
-                자세히
-              </Button>
-        </div>
-          
-                
-      </div>
-    </div>
-  </div>
-</div>
 
           
           

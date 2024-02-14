@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
@@ -20,39 +20,35 @@ import Extra from './Extra';
 import NotFound from './NotFound';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
 import './App.css';
 
 const App = () => {
-	return (
-		<div className='App'>
-			<Router>
-				<Header />
-				<Routes>
-					<Route path="/" element ={<Home />}></Route>
-                    <Route path="/home" element ={<Home />}></Route>
-                    <Route path="/history" element ={<History />}></Route>
-                    <Route path="/skills" element ={<Skills />}></Route>
-                    <Route path="/projects" element ={<Projects />}></Route>
-                    <Route path="/projects/1" element ={<Project1 />}></Route>
-                    <Route path="/projects/2" element ={<Project2 />}></Route>
-                    <Route path="/projects/3" element ={<Project3 />}></Route>
-                    <Route path="/projects/4" element ={<Project4 />}></Route>
+    return (
+        <div className='App'>
+            <Router>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Home />}></Route>
+                    <Route path="/home" element={<Home />}></Route>
+                    <Route path="/history" element={<History />}></Route>
+                    <Route path="/skills" element={<Skills />}></Route>
+                    <Route path="/projects" element={<Projects />}></Route>
+                    <Route path="/projects/1" element={<Project1 />}></Route>
+                    <Route path="/projects/2" element={<Project2 />}></Route>
+                    <Route path="/projects/3" element={<Project3 />}></Route>
+                    <Route path="/projects/4" element={<Project4 />}></Route>
                     <Route path="/projects/5" element={<Project5 />}></Route>
                     <Route path="/projects/6" element={<Project6 />}></Route>
                     <Route path="/projects/7" element={<Project7 />}></Route>
                     <Route path="/projects/8" element={<Project8 />}></Route>
                     <Route path="/projects/9" element={<Project9 />}></Route>
                     <Route path="/extra" element={<Extra />}></Route>
-					{/* 상단에 위치하는 라우트들의 규칙을 모두 확인, 일치하는 라우트가 없는경우 처리 */}
-					<Route path="*" element={<NotFound />}></Route>
-				</Routes>
+                    <Route path="*" element={<NotFound />}></Route>
+                </Routes>
                 <Footer />
-			</Router>
-		</div>
-	);
+            </Router>
+        </div>
+    );
 };
 
 export default App;

@@ -35,7 +35,8 @@ const Projects = () => {
           <h1 className="display-5 fw-bolder mb-0">
             <span className="text-gradient d-inline">종우의 개발 꾸러미</span>
           </h1>
-          <div>2023.12 (개인 프로젝트)</div>
+          <div>2023.12 (V1 / 개인 프로젝트)<br/>
+              2024.01 - 2024.02 (V2 / 개인 프로젝트)</div>
         </div>
 
         <div className="d-flex align-items-center justify-content-between mb-4">
@@ -86,7 +87,6 @@ const Projects = () => {
            <div className = "text-start">
          <b>포트폴리오 용도로 제작한 개인 웹사이트</b>입니다.<br/>
 
-            React, Bootstrap 라이브러리를 활용해 제작했습니다.
           </div>
           
           
@@ -102,30 +102,37 @@ const Projects = () => {
              
           
              <div className="mb-0">
-         
-            <div className="row row-cols-1 row-cols-md-4 mb-4">
-              <div className="col mb-3 mb-md-0">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div>
-              </div>
-              <div className="col mb-3 mb-md-0">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">React</div>
-              </div>
-                  <div className="col mb-3 mb-md-0">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML/CSS</div>
-              </div>
-               <div className="col mb-3 mb-md-0">
-                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Bootstrap</div>
-              </div>
-            </div>
-            
-                   
-                 
-                 
-          </div>
-                 
-               <br/><br/>  
-             <div className="d-flex align-items-center justify-content-between mb-4">
-          <h2 className="text-primary fw-bolder mb-0" onClick={toggleCarousel}>
+
+                 <div className="row row-cols-1 row-cols-md-4 mb-4">
+                     <div className="col mb-3 mb-md-4">
+                         <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">React</div>
+                     </div>
+                     <div className="col mb-3 mb-md-4">
+                         <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Springboot</div>
+                     </div>
+                     <div className="col mb-3 mb-md-4">
+                         <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Java</div>
+                     </div>
+                     <div className="col mb-3 mb-md-4">
+                         <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Gradle</div>
+                     </div>
+
+                     <div className="col mb-3 mb-md-4">
+                         <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">MySQL</div>
+                     </div>
+
+                     <div className="col mb-3 mb-md-4">
+                         <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Apache(Tomcat)</div>
+                     </div>
+
+                 </div>
+
+
+             </div>
+
+          <br/><br/>
+          <div className="d-flex align-items-center justify-content-between mb-4">
+              <h2 className="text-primary fw-bolder mb-0" onClick={toggleCarousel}>
            개발 배경
           </h2>
         
@@ -134,7 +141,7 @@ const Projects = () => {
           
            <div className = "text-start">
           
-            그 동안의 개발 경험을 체계적으로 정리하고, React 사용법을 습득하기 위해 개발하게 되었습니다.
+            그 동안의 개발 경험을 체계적으로 정리하고, React와 Springboot 사용법을 습득하기 위해 개발하게 되었습니다.
           </div>
           
           
@@ -170,15 +177,12 @@ const Projects = () => {
                Github에 프로젝트 제목과 한줄소개 정도만 정리해 둔 것이 다였기에 제가 만든 프로젝트를 찾는 것도, 정리하는 것도 오랜 시간이 걸렸습니다. <br/>
                중구난방으로 작성한 개발 보고서의 내용을 웹사이트에 동일한 양식으로 통일하는 과정도 상당히 오래 걸리고 쉽지만은 않은 작업이었습니다. <br/>
                <br/>
-               
-               
-          React와의 첫경험, 즐거웠습니다.<br/>
-          왜 많은 기업과 개발자들이 React를 사용하는지 알 수 있었습니다. <br/>
-          React에 대한 첫인상은 그리 좋지 못했지만, 사용하면 할수록 기존에 사용하던 Django 프레임워크와 Python이 그립지 않을 정도로 편리하고 직관적으로 다가왔습니다.<br/>
-          익숙해지는 데에는 아직 더 많은 시간이 필요하겠지만 웹 개발 경험이 있어서인지 금방 적응할 수 있어 보입니다. <br/>
+
+
+               왜 많은 기업과 개발자들이 React를 사용하는지 알 수 있었습니다. React에 대한 첫인상은 그리 좋지 못했지만, 사용하면 할수록 기존에 사용하던 Django 프레임워크와 Python이 그립지 않을 정도로 편리하고 직관적으로 다가왔습니다.
+               익숙해지는 데에는 아직 더 많은 시간이 필요하겠지만 웹 개발 경험이 있어서인지 금방 적응할 수 있어 보입니다.<br/>
                <br/>
-              
-               (* 사이트를 개발한 시점에서 가장 인상깊었던 프로젝트를 하나 꼽으라면, 동아리연합회 웹사이트 프로젝트입니다👌)<br/>
+
                
           </div>
           

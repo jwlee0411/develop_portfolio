@@ -16,7 +16,7 @@ const History = (props) => {
       <h1 className="display-5 fw-bolder mb-0">
         <span className="text-gradient d-inline"><br/>걸어온 길</span>
       </h1>
-    </div>
+  </div>
 
      <section>
         
@@ -109,10 +109,6 @@ const History = (props) => {
                 </div>
               </Col>
                   
-                  
-                  
-                  
-                  
             </Row>
               
                                 {/* Item */}
@@ -174,11 +170,7 @@ const History = (props) => {
                 
                 </div>
               </Col>
-                  
-                  
-                  
-                  
-                  
+
             </Row>
               
               
@@ -189,7 +181,8 @@ const History = (props) => {
               <Col className="text-lg-start">
                
                     
-                  <div className="text-primary fw-bolder mb-2"><div className="d-flex align-items-center justify-content-between mb-4">
+                  <div className="text-primary fw-bolder mb-2">
+                      <div className="d-flex align-items-center justify-content-between mb-4">
           <h4 className="text-secondary fw-bolder mb-0"><b>2023</b></h4>
         </div>
                 

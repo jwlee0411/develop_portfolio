@@ -67,21 +67,33 @@ const Skills = (props) => {
               </div>
             </div>
             <div className="row row-cols-1 row-cols-md-3">
-                <div className="col mb-4 mb-md-0">
+              <div className="col mb-4 mb-md-0">
                 <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">NAVER Cloud</div>
               </div>
-                <div className="col mb-4 mb-md-0">
+              <div className="col mb-4 mb-md-0">
                 <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">AWS</div>
               </div>
               <div className="col mb-4 mb-md-0">
                 <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Firebase</div>
               </div>
-              
-              
+
+
+            </div>
+
+            <div className="row row-cols-1 row-cols-md-3">
+              <div className="col mb-4 mb-md-0">
+                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Oracle Cloud</div>
+              </div>
+              <div className="col mb-4 mb-md-0">
+                <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Springboot</div>
+              </div>
+
+
+
             </div>
           </div>
-          
-               <div className="mb-5">
+
+          <div className="mb-5">
             <div className="d-flex align-items-center mb-4">
               <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
                 <i className="bi bi-tools"></i>
