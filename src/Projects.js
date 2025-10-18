@@ -123,10 +123,10 @@ const Projects = (props) => {
                     </Badge>
         <p />
         <h2 className="fw-bolder">숭실대학교 동아리연합회</h2>
-                  2022.10 - 2024.01 (팀⇾개인 프로젝트)<br/><br/>
+                  2022.10 - 2025.07 (팀⇾개인 프로젝트)<br/><br/>
                  <p >
                     <b>기존 사용하던 네이버 카페를 대체하기 위한 숭실대학교 동아리연합회 웹사이트</b>를 제작했습니다. <br/>
-                    실시간 연습실 신청 및 이용내역 관리, 장소사용신청서 작성 및 출력, 회원 관리, 게시물 관리 등의 기능을 구현했습니다.<br/>
+                    실시간 장소사용 신청 및 관리, 강의실 대관 신청서 작성 및 출력, 폐집기/폐가구 배출, 회원 관리, 게시물 관리, Q&A 등의 기능을 구현했습니다.<br/>
                 </p>
                   
                   <div className="d-grid gap-1 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
