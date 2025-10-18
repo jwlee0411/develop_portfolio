@@ -25,7 +25,7 @@ function Footer(props) {
       <a className="text-gradient" href="https://open.kakao.com/o/seB8UWdf" target="_blank">
         <img src={kakaotalk_logo} width="30" height="30" alt="KakaoTalk Logo" />
       </a>
-      <a className="text-gradient" href="https://play.google.com/store/apps/developer?id=Jongwoo+Lee" target="_blank">
+      <a className="text-gradient" href="https://play.google.com/store/apps/developer?id=jwlee0411" target="_blank">
         <img src={playstore_logo} width="30" height="30" alt="Play Store Logo" />
       </a>
     </div>

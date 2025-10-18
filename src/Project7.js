@@ -135,7 +135,10 @@ const Projects = () => {
            <div className = "text-start">
          기존 사용하던 동아리연합회 <b>네이버 카페를 대체하기 위해 개발한 숭실대학교 동아리연합회 웹사이트</b>입니다.<br/>
 
-            2023년 8월 서비스를 시작했고, 2023년 기준 7개 분과 / 70개 동아리에 소속된 3,700명의 중앙동아리 회원이 사이트를 이용하고 있습니다.
+               공지사항 및 Q&A 게시판, 동아리연합회 및 동아리 소개, 실시간 장소사용 신청, 강의실 대관, 폐집기/폐가구 배출, 활동증명서 신청(예졍) 등의 기능을 구현했습니다. <br/>
+
+            2023년 8월 베타 서비스 / 2024년 3월 정식 서비스를 시작했습니다. <br/>
+               506명의 회원을 보유하고 있고 누적 장소사용 신청 9,302건, 게시물 1,108개, 강의실 대관 888건, 누적 데이터 쿼리 574,022건, 데이터 트래픽 250GB를 처리했습니다. (기준일 2025. 07. 22.)
           </div>
           
           
@@ -247,10 +250,10 @@ const Projects = () => {
           
           
            <div className = "text-start">
-               (링크 업데이트 예정) <br/>
-              <a href="http://www.ssudy.com/" style={{textDecoration: "none"}}>학사학위 청구논문 - 선착순 트랜잭션 최적화 및 SHA-256 기반 보안 강화를 위한 숭실대학교 동아리연합회 웹사이트 설계 및 운영 </a> <br/><br/>
-               <a href="http://www.ssudy.com/" style={{textDecoration: "none"}}>학사학위 청구논문 발표자료 </a> <br/><br/>
-               <a href="http://www.ssudy.com/" style={{textDecoration: "none"}}>전체 소스코드 - Github </a>
+               {/*(링크 업데이트 예정) <br/>*/}
+              <a href="http://www.ssudy.com/board/download/%EC%A1%B8%EC%97%85%EB%85%BC%EB%AC%B8_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf?path=%EC%A1%B8%EC%97%85%EB%85%BC%EB%AC%B8_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf" style={{textDecoration: "none"}}>학사학위 청구논문 - 선착순 트랜잭션 최적화 및 SHA-256 기반 보안 강화를 위한 숭실대학교 동아리연합회 웹사이트 설계 및 운영 </a> <br/><br/>
+               <a href="http://www.ssudy.com/board/download/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf?path=%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf" style={{textDecoration: "none"}}>학사학위 청구논문 발표자료 </a> <br/><br/>
+               <a href="https://github.com/jwlee0411/ssudy_web" target="_blank"  style={{textDecoration: "none"}}>전체 소스코드 - Github </a>
 
           </div>
           
