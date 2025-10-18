@@ -30,7 +30,8 @@ const Projects = () => {
   const toggleCarousel = () => {
     setShowCarousel(!showCarousel);
   };
-    
+
+
     const numSlides = 2;
 
   return (
@@ -251,9 +252,9 @@ const Projects = () => {
           
            <div className = "text-start">
                {/*(링크 업데이트 예정) <br/>*/}
-              <a href="http://www.ssudy.com/board/download/%EC%A1%B8%EC%97%85%EB%85%BC%EB%AC%B8_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf?path=%EC%A1%B8%EC%97%85%EB%85%BC%EB%AC%B8_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf" style={{textDecoration: "none"}}>학사학위 청구논문 - 선착순 트랜잭션 최적화 및 SHA-256 기반 보안 강화를 위한 숭실대학교 동아리연합회 웹사이트 설계 및 운영 </a> <br/><br/>
-               <a href="http://www.ssudy.com/board/download/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf?path=%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf" style={{textDecoration: "none"}}>학사학위 청구논문 발표자료 </a> <br/><br/>
-               <a href="https://github.com/jwlee0411/ssudy_web" target="_blank"  style={{textDecoration: "none"}}>전체 소스코드 - Github </a>
+              <a href="https://github.com/jwlee0411/ssu_thesis_pub/blob/main/%EC%A1%B8%EC%97%85%EB%85%BC%EB%AC%B8_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf" style={{textDecoration: "none", color:"black"}} target="_blank"  rel="noopener noreferrer">학사학위 청구논문 - 선착순 트랜잭션 최적화 및 SHA-256 기반 보안 강화를 위한 숭실대학교 동아리연합회 웹사이트 설계 및 운영 </a> <br/><br/>
+               <a href="https://github.com/jwlee0411/ssu_thesis_pub/blob/main/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_%EC%9D%B4%EC%A2%85%EC%9A%B0_v1018_%EC%9B%B9%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf" style={{textDecoration: "none", color:"black"}} target="_blank"   rel="noopener noreferrer">학사학위 청구논문 발표자료 </a> <br/><br/>
+               <a href="https://github.com/jwlee0411/ssudy_web" target="_blank"  style={{textDecoration: "none", color:"black"}}>전체 소스코드 - Github </a>
 
           </div>
           
